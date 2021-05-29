@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <title>MEI School | Quiz</title>
+    <link rel="stylesheet" href="./quiz.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-9 col-md-7 col-lg-5 mx-auto">
+                <div class="card card-signin my-5">
+                    <div class="card-header text-center">
+                        <h1>MEI School</h1>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title text-center">ADDITION</h5>
+                        <div class="form-signin">
+                            <div class="text-center">
+                                <h2 id="question"></h2>
+                            </div>
+
+                            <div class="form-label-group p-2 py-4">
+                                <input type="text" id="result" class="form-control" placeholder="Result" autofocus required>
+                            </div>
+
+                            <button class="btn btn-lg btn-success btn-block text-uppercase" id="submit" type="button" onclick="validateAns()">Check</button>
+                            <hr class="my-4">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./quiz.js"></script>
+</body>
+
+</html>
